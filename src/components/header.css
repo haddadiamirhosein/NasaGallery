@@ -1,0 +1,31 @@
+.header{
+    position: relative;
+    background-color: black;
+}
+
+.header img{
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    display:block;
+    opacity: 0.6;
+}
+
+.header .header_title{
+    z-index: 1;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.header_title h1{
+    font-size:15vw;
+   color:deepskyblue;
+   font-family: 'Dancing Script', cursive;
+}
+
