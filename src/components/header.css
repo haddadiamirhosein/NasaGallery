@@ -8,7 +8,6 @@
     z-index: -1;
     object-fit: cover;
     display:block;
-    opacity: 0.6;
 }
 
 .header .header_title{
@@ -25,7 +24,13 @@
 
 .header_title h1{
     font-size:15vw;
-   color:deepskyblue;
-   font-family: 'Dancing Script', cursive;
+    color:#06243a;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header_title .text_nasa{
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+
 }
 

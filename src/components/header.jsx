@@ -3,12 +3,12 @@ import'./header.css'
 
 function Header() {
     return(
-        <div className="header">
+        <header className="header">
             <img src="/earth.jpg" alt="" />
             <div className="header_title">
-                <h1>Nasa Gallery</h1>
+                <h1> <span className="text_nasa">Nasa </span>Gallery</h1>
             </div>
-        </div>
+        </header>
 
     )
 }
